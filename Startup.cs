@@ -82,9 +82,9 @@ namespace aspnet_wso2
             app.UseOpenIdConnectAuthentication( options => {
                 
                 options.CallbackPath = new PathString("/auth/oidc/callback");                
-                options.ClientId = "ffQRSYQDDoyVjz7l44il3DNKiHIa";
+                options.ClientId = "AT4ZX11RVZtLe5h_1lHzJadZaV4a";
                 options.GetClaimsFromUserInfoEndpoint = true;
-                options.ClientSecret = "z9xfhKSIDrB5X9T_Xb9MB2jfjeMa";
+                options.ClientSecret = "Weum67rCXPeFOHLUi1Qhxq9ZsAka";
                 options.Configuration = new OpenIdConnectConfiguration() {
                     AuthorizationEndpoint = "https://localhost:9443/oauth2/authorize",
                     TokenEndpoint = "https://localhost:9443/oauth2/token"
